@@ -51,7 +51,6 @@ end
 counter
 end
 
-
 def current_player(board_array)
   if turn_count(board_array) % 2 == 0
     "X"

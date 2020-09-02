@@ -110,4 +110,11 @@ def play(board)
   until over?(board) == WIN_COMBINATIONS || over?(board) == draw?(board)
     turn(gets)
   end
+  if winner(board) == X 
+    "Congratulations X!"
+  elsif winner(board) == O
+    "Congratulations O!"
+  else
+    "Cat's Game!"
+  end
 end

@@ -108,11 +108,11 @@ def play(board)
   until over?(board)
     turn(board)
   end
-  if winner(board) == current_player(board_array) && current_player(board_array) == "X"
-    "Congratulations X!"
-  elsif winner(board) == "O"
-    "Congratulations O!"
-  else
-    "Cat's Game!"
+  #if winner(board) == current_player(board_array) && current_player(board_array) == "X"
+  #  "Congratulations X!"
+  #elsif winner(board) == "O"
+  #  "Congratulations O!"
+  #else
+  #  "Cat's Game!"
   end
 end

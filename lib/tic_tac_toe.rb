@@ -108,7 +108,7 @@ def play(board)
   input = gets
   "Please enter 1-9:"
   until over?(board)
-    turn(gets)
+    turn(board)
   end
   if winner(board) == X
     "Congratulations X!"

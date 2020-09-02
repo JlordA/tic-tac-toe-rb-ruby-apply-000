@@ -115,4 +115,5 @@ def play(board)
   #else
   #  "Cat's Game!"
   #end
+  winner(board)
 end

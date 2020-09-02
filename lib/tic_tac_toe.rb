@@ -105,8 +105,6 @@ def winner(board)
 end
 
 def play(board)
-  input = gets
-  "Please enter 1-9:"
   until over?(board)
     turn(board)
   end

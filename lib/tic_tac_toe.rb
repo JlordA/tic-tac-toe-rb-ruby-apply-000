@@ -115,5 +115,11 @@ def play(board)
   #else
   #  "Cat's Game!"
   #end
-  winner(board)
+  if winner(board)
+    "Congratulations X!"
+  elsif winner(board)
+    "Congratulations O!"
+  else
+    draw?(board) == "Cat's Game!"
+  end
 end

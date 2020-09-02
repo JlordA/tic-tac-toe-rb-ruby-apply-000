@@ -116,5 +116,4 @@ def play(board)
   #  "Cat's Game!"
   #end
   winner(board)
-  "Congratulations X!"
 end

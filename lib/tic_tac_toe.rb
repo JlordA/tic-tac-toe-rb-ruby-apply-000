@@ -103,3 +103,6 @@ def winner(board)
     board[combo[0]]
   end
 end
+
+def play(board)
+end

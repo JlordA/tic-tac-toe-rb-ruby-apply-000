@@ -11,3 +11,8 @@ def display_board(board)
 end
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
+
+def position_taken?(board, index)
+  board[index] == "O" || board[index] == "X"
+end

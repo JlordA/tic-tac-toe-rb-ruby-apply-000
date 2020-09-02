@@ -106,6 +106,7 @@ end
 
 def play(board)
   input = gets
+  "Please enter 1-9:"
   until over?(board) == WIN_COMBINATIONS || over?(board) == draw?(board)
     turn(gets)
   end

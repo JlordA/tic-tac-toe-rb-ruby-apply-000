@@ -105,5 +105,7 @@ def winner(board)
 end
 
 def play(board)
-  input = gets
+  #input = gets
+  until over?(board) == WIN_COMBINATIONS || over?(board) == draw?(board)
+    turn(board)calls.gets
 end

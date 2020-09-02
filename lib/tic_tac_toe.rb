@@ -59,4 +59,3 @@ def current_player(board_array)
     "O"
   end
 end
-

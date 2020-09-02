@@ -108,9 +108,9 @@ def play(board)
   until over?(board)
     turn(board)
   end
-  if winner(board) == X
+  if winner(board) == "X"
     "Congratulations X!"
-  elsif winner(board) == O
+  elsif winner(board) == "O"
     "Congratulations O!"
   else
     "Cat's Game!"
